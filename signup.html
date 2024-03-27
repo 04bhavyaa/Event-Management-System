@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventEase - Streamline Your Events</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="bgded overlay">
+    <div>
+      <header id="header" class="hoc clear">
+        <div id="logo" class="fl_left">
+          <h1><a href="landing-page.html">EventEase</a></h1>
+        </div>
+
+        <nav id="mainav" class="fl_right">
+          <ul class="clear">
+            <li class="active"><a href="landing-page.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="bgded overlay" style="background-image: url('images/17.jpg')";>
+        <section class="center"><br><br>
+            <h1 class="heading">Register for EventEase</h1>
+
+            <div style="align-self: center;">
+              <form id="myForm" onsubmit="return validateForm()" action="/signup" method="post">
+                <div style="display:inline-block;">
+            
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error" id="nameError"></span>
+
+              <br>
+
+                <label for="email">College Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error" id="emailError"></span>
+              
+              <br>
+              
+                <label for="password">Create Password:</label>
+                <input type="password" id="password" name="password" required>
+                <span class="error" id="passwordError"></span>
+              
+              <br>
+              
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <span class="error" id="confirmPasswordError"></span>
+              
+              <br>
+              <button type="submit" class="btn inverse">Register</button><br>
+          
+            </form>
+          </div><p>Already have an account? <a href="landing-page.html">Login from here</a></p><br><br>
+        </div>
+    </section>
+      </main>
+
+      <footer class="bgded overlay">
+        <div class="center footer-nav">
+          <ul class="nospace inline copyright">
+            <li>&copy; EventEase 2024 All Rights Reserved.</li>
+          </ul>
+        </div>
+      </footer>
+
+      <script src="js/script.js"></script>
+      <script src="js/form-validation.js"></script>
+    </div>
+  </div>
+</body>
+
+</html>

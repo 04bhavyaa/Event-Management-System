@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventEase - Streamline Your Events</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="bgded overlay">  <div class="wrapper row1">
+
+      <header id="header" class="hoc clear">
+        <div id="logo" class="fl_left">
+          <h1><a href="landing-page.html">EventEase</a></h1>
+        </div>
+
+        <nav id="mainav" class="fl_right">
+          <ul class="clear">
+            <li class="active"><a href="landing-page.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      </div>
+    </div>
+
+    <main class="bgded overlay" style="background-image: url('images/17.jpg')">
+      <section class="center"><br><br><br>
+        <h1 class="heading">Login as Organizer!</h1>
+  
+        <div>
+          <div style="align-self: center;">
+            <form id="login-form" action="organizer-dashboard.html">
+              <div style="display:inline-block;">
+                <input type="hidden" name="userType" value="organizer">
+  
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your username" required>
+  
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+  
+                <div class="error-message"></div>
+                <button type="submit" style="align-self: center;">Login</button>
+  
+                <p>Oops! An Attendee? <a href="login-attendees.html">Login</a></p>
+                <p>Don't have an account? <a href="signup-organizers.html">Sign Up</a></p><br><br>
+         </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    
+    <footer>
+        <div class="center footer-nav">
+          <ul class="nospace inline copyright">
+            <li>&copy; EventEase 2024 All Rights Reserved.</li>
+          </ul>
+        </div>
+      </footer>
+
+  <script src="js/script.js"></script>
+  <script src="js/form-validation.js"></script>
+  <script src="js/login.js"></script>
+</body>
+
+</html>

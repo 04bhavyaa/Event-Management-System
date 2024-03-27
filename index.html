@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EventEase</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>EventEase</h1>
+      <div class="search-bar">
+        <input type="text" placeholder="Search for events">
+        <button type="button">Search</button>
+      </div>
+      <div class="user-profile">
+        <a href="#">My Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <aside class="sidebar">
+        <h2>Filters</h2>
+        <form action="#">
+          <label for="category">Category:</label>
+          <select name="category" id="category">
+            <option value="">All Categories</option>
+            <option value="club">Club Events</option>
+            <option value="council">Student Council Events</option>
+            <option value="placement">Placement Cell Events</option>
+          </select>
+          <label for="date">Date:</label>
+          <input type="date" name="date" id="date">
+          <button type="submit">Apply Filters</button>
+        </form>
+      </aside>
+
+      <section class="content">
+        </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <?php echo date("Y"); ?> EventEase</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
