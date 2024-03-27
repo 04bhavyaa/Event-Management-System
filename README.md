@@ -1,5 +1,5 @@
 # Event-Management-System
-EventEase is not like your common event management systems or websites, we plan on making it especially curated for NMIMS, Chandigarh. It will help committees collaborate better and produce better event results.
+This project aims to develop a comprehensive Database Management System (DBMS) tailored for efficient event management within NMIMS University. Events play a pivotal role in fostering a vibrant campus culture, necessitating a robust system to streamline organization, coordination, and documentation of these activities. The proposed DBMS will offer functionalities to manage various aspects of event planning, execution, and analysis, catering to the diverse needs of students, faculty, and administrative staff. It would also help avoid the several clashes that occur related to the venues and other resources.
 
 # Screenshots
 ![WhatsApp Image 2024-03-27 at 13 19 28_1634fb16](https://github.com/04bhavyaa/Event-Management-System-EventEase/assets/149358777/1180dfa8-3408-4fe0-ad01-4c9db3aa1144)
