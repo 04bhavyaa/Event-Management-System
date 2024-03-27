@@ -1,1 +1,2 @@
 # Event-Management-System
+EventEase is not like your common event management systems or websites, we plan on making it especially curated for NMIMS, Chandigarh. It will help committees collaborate better and produce better event results.
